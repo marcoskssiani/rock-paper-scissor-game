@@ -32,6 +32,7 @@ resources/RockPaperScissorGame.postman_collection.json
 
 Please note that if you change the server port, you will also need to update the ids of the postman requests.
 
+###Must try the [awesome client app](https://github.com/marcoskssiani/rock-paper-scissor-game-client) too.
 ## Running the automated tests ⚙️
 
 _This project has 100% of code coverage. To run the automated test just execute the maven command:_
