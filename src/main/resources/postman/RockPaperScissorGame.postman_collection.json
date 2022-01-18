@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "07539916-1e1d-4b7e-8a76-5fdf4d71a68a",
+		"name": "RockPaperScissorGame",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PlayRound",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/matches/a8cd0ddd-b633-4778-b9f8-a0b827c0f93a/rounds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"matches",
+						"a8cd0ddd-b633-4778-b9f8-a0b827c0f93a",
+						"rounds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateMatch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/matches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"matches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMatch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/matches/b72f05a0-d328-455f-be3a-32c33e3e0f8d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"matches",
+						"b72f05a0-d328-455f-be3a-32c33e3e0f8d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMatchs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/matches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"matches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMatchStats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/matches-stats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"matches-stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
