@@ -28,11 +28,11 @@ resources/RockPaperScissorGame.postman_collection.json
 2. _GetMatch:_ Get a specific match with its id.
 3. _GetAllMatches:_ Get all existing matches.
 4. _PlayRound:_ Play a new round on a match.
-5. _GetMatchStats:_Get the stats for all matches.
+5. _GetMatchStats:_ Get the stats for all matches.
 
 Please note that if you change the server port, you will also need to update the ids of the postman requests.
 
-###Must try the [awesome client app](https://github.com/marcoskssiani/rock-paper-scissor-game-client) too.
+### Must try the [awesome client app](https://github.com/marcoskssiani/rock-paper-scissor-game-client) too.
 ## Running the automated tests ⚙️
 
 _This project has 100% of code coverage. To run the automated test just execute the maven command:_
